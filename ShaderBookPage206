@@ -1,0 +1,3 @@
+
+在实现Shader的forwardpass中forwardadd中的阴影时需在修改#pragma multi_compile_fwdadd为#pragma multi_compile_fwdadd_fullshadows的基础上
+  添加#include UnityCG.cginc
